@@ -11,7 +11,7 @@ const routes = [
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="jupiter">
       <div>
         {
           routes.map((page, index) => page.component ?
